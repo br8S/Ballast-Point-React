@@ -1,0 +1,45 @@
+.complete-video {
+    height: 90vh;
+    position: relative;
+    overflow: hidden; 
+}
+
+.complete-video-bg {
+    position: relative;
+    z-index: 2;
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("./images/complete-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: brothers, sans-serif;
+    transition: opacity 0.25s ease-in;
+}
+
+.complete-video-bg:hover {
+    cursor: pointer;
+}
+
+
+.play-button {
+    position: relative;
+    z-index: 3;
+    background-image: url("./images/play-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 6vh;
+    position: relative;
+    top: -50vh;
+}
+
+.complete-video-vid {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+    object-fit: cover;
+    visibility: hidden;
+}

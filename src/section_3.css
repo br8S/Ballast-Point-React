@@ -1,0 +1,60 @@
+.drink-line {
+    height: 60vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.261), rgba(0, 0, 0, 0.261)), url("./images/Homepage-banner-1-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: brothers, sans-serif;
+    color: white;
+}
+
+.drink-line-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 13vh;
+}
+
+.slogan {
+    font-size: 8rem;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.slogan-2 {
+    font-size: 8rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    position: relative;
+    top: -2vh;
+}
+
+.visit-us {
+    margin: 0 auto;
+    top: 0vh;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 3%;
+    border: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .drink-line-content {
+        top: 16vh;
+    }
+
+    .slogan {
+        font-size: 4.2rem;
+    }
+    
+    .slogan-2 {
+        font-size: 4.2rem;
+    }
+
+    .visit-us {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.7rem;
+    }
+}

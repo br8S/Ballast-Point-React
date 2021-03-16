@@ -1,0 +1,15 @@
+.drink-letter {
+    height: 180vh;
+    background-color: white;
+    background-image: url("./images/open_letter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    font-family: brothers, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .drink-letter {
+        height: 120vh;
+    }
+}

@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+//this is a component it holds all logi and stylinh in one file
+//this is a self contained piece of code containing html, js, and css
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+//to render a react component make sure you always start its name with an uppercase
+
+import React from 'react'; 
+import Nav from './Nav';
+import Home from './Home';
+import SECTION_1 from './section_1';
+import SECTION_2 from './section_2';
+import SECTION_3 from './section_3';
+import SECTION_4 from './section_4';
+
+
+function App(){
+  return(
+    <>
+      <Nav />
+      <Home />
+      <SECTION_1 />
+      <SECTION_2 />
+      <SECTION_3 />
+      <SECTION_4 />
+    </>
   );
 }
 

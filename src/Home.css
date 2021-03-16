@@ -1,0 +1,18 @@
+header {
+    height: 100vh;
+    background-image: url('./images/ballast_point_banner.png');
+    background-position: center;
+}
+
+.learn-more {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 80vh;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 3%;
+    border: 0px;
+}
